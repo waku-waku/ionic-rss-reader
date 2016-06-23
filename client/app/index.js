@@ -5,7 +5,7 @@ angular.module('lunaIonic', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 
     $stateProvider
       .state('home', {
         url: '/',
-        templateUrl: 'home/home.html',
+        templateUrl: 'app/home/home.html',
         controller: 'HomeCtrl'
       })
     ;
