@@ -1,0 +1,28 @@
+<ion-pane>
+  <ion-header-bar class="bar-energized">
+    <h1 class="title">Luna</h1>
+  </ion-header-bar>
+  <ion-content>
+		
+		<a href="#">{{ datas.username }}</a>
+
+    <ion-list>
+      <ion-item ng-repeat="item in items"
+                can-swipe="false"
+                class="item-thumbnail-left">
+        <img ng-src="{{item.image}}">
+        <p>
+          {{item.title}}
+        </p>
+        <h5>{{item.publishedDate}}</h5>
+        <p align="right">
+          <a class="button button-balanced button-small" ng-href="{{item.link}}" target="_blank">
+            detail
+          </a>
+        </p>
+      </ion-item>
+    </ion-list>
+
+
+  </ion-content>
+</ion-pane>
