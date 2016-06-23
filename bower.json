@@ -1,0 +1,27 @@
+{
+  "name": "luna-provision",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "waku-waku"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/waku-waku/ionic-rss-reader",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "angular-animate": "^1.5.7",
+    "angular-touch": "^1.5.7",
+    "angular-sanitize": "^1.5.7",
+    "angular-cookies": "^1.5.7",
+    "ionic": "driftyco/ionic-bower#master"
+  }
+}
